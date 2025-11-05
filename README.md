@@ -15,7 +15,6 @@
 ## 🧩 Tecnologías utilizadas
 
 | Recursos
-|-------------|-------------|
 | 🧱 **Kotlin / Android Studio** Lenguaje y entorno base del proyecto |
 | 🎨 **XML**  Para el diseño de interfaces y layouts |
 | 🔗 **MockApi para crear campos y ser mostrados en la app**
