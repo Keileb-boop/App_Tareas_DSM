@@ -1,0 +1,26 @@
+<resources>
+
+        <!-- elnombre de la app-->
+        <string name="app_name">Gestor de Tareas</string>
+
+        <!-- de la main -->
+        <string name="titulo_main">Lista de Tareas</string>
+        <string name="descripcion_agregar">Agregar</string>
+        <string name="descripcion_editar">Editar tarea</string>
+
+        <!-- pa la creacion de tareas -->
+        <string name="titulo_crear">Agregar Nueva Tarea</string>
+        <string name="hint_titulo">Título de la tarea</string>
+        <string name="hint_descripcion">Descripción de la tarea</string>
+        <string name="hint_estado_tarea">Estado (Pendiente, Completada...)</string>
+        <string name="boton_guardar">Guardar</string>
+
+        <!-- Acctualizarla -->
+        <string name="titulo_actualizar_tarea">Actualizar Tarea</string>
+        <string name="hint_estado">Estado</string>
+        <string name="boton_actualizar">Actualizar</string>
+
+        <string name="logo_app">logo</string>
+    </resources>
+
+

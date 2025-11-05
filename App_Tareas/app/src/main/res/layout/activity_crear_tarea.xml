@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_crear"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary"
+            android:gravity="center"
+            android:paddingBottom="24dp" />
+
+        <EditText
+            android:id="@+id/editTextTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_titulo"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_descripcion"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editTextEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_estado"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?attr/colorPrimary"
+            android:textColor="@android:color/white"
+            android:text="@string/boton_guardar"
+            android:textStyle="bold"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

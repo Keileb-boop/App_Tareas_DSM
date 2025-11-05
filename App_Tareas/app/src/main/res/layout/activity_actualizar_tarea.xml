@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- el encabezado-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Tarea"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:gravity="center"
+            android:paddingBottom="24dp" />
+
+        <!-- campos de titulo -->
+        <EditText
+            android:id="@+id/editTextTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título de la tarea"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"
+            android:inputType="text" />
+
+        <!-- Campo de descripcion -->
+        <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textMultiLine" />
+
+        <!-- Campo de estado -->
+        <EditText
+            android:id="@+id/editTextEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:inputType="text" />
+
+        <!-- Botón de actualizar -->
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:textColor="@android:color/white"
+            android:text="Actualizar"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>
