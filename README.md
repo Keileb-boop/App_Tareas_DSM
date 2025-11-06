@@ -25,3 +25,6 @@ Integrantes:
 
 Mockapi Link:
 **https://mockapi.io/clone/690b78486ad3beba00f51b9c**
+
+Link del video:
+**https://drive.google.com/file/d/1WPkIdKY1iLH1uJya3xmwn4Bs5OPaMK3A/view
